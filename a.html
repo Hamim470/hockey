@@ -1,0 +1,41 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Contact Form</title>
+    <link href="https://cdn.jsdelivr.net/npm/tailwindcss@2.2.19/dist/tailwind.min.css" rel="stylesheet">
+</head>
+<body class="bg-gray-100 flex items-center justify-center h-screen">
+    <div class="bg-white p-8 rounded-lg shadow-lg w-full max-w-md">
+        <form>
+            <div class="mb-4">
+                <label for="name" class="block text-gray-700">Your Name</label>
+                <input type="text" id="name" placeholder="Enter your full name" class="mt-1 block w-full px-3 py-2 border border-gray-300 rounded-md shadow-sm focus:outline-none focus:ring-indigo-500 focus:border-indigo-500 sm:text-sm">
+            </div>
+            <div class="mb-4">
+                <label for="email" class="block text-gray-700">Your Email</label>
+                <input type="email" id="email" placeholder="Enter your email" class="mt-1 block w-full px-3 py-2 border border-gray-300 rounded-md shadow-sm focus:outline-none focus:ring-indigo-500 focus:border-indigo-500 sm:text-sm">
+            </div>
+            <div class="mb-4">
+                <label for="subject" class="block text-gray-700">Subject</label>
+                <input type="text" id="subject" placeholder="Enter your subject" class="mt-1 block w-full px-3 py-2 border border-gray-300 rounded-md shadow-sm focus:outline-none focus:ring-indigo-500 focus:border-indigo-500 sm:text-sm">
+            </div>
+            <div class="mb-4">
+                <label for="phone" class="block text-gray-700">Phone Number</label>
+                <input type="text" id="phone" placeholder="Enter your phone number" class="mt-1 block w-full px-3 py-2 border border-gray-300 rounded-md shadow-sm focus:outline-none focus:ring-indigo-500 focus:border-indigo-500 sm:text-sm">
+            </div>
+            <div class="mb-4">
+                <label for="message" class="block text-gray-700">Message</label>
+                <textarea id="message" rows="4" placeholder="Write your message" class="mt-1 block w-full px-3 py-2 border border-gray-300 rounded-md shadow-sm focus:outline-none focus:ring-indigo-500 focus:border-indigo-500 sm:text-sm"></textarea>
+            </div>
+            <div class="mb-4">
+                <div class="bg-red-500 text-white text-center py-2 rounded-md">922</div>
+            </div>
+            <div>
+                <button type="submit" class="w-full bg-red-500 text-white py-2 rounded-md hover:bg-red-600">Send Message</button>
+            </div>
+        </form>
+    </div>
+</body>
+</html>
